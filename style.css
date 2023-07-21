@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{ 
+    box-sizing: border-box;    
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+
+header {
+    padding: 20px 115px ;/*20px 70px (20 em cima e em baixo e 70 nas laterais)*/
+}
+
+.nav {
+    display: flex; /*para ficar um do lado do outro*/
+    justify-content: space-between; /*para ficar um na extremidade do outro*/
+    align-items: center; /*para a logo e o menu ficarem centralizados entre sí*/
+}
+
+.nav .logo {
+    width: 100px;
+}
+
+.nav .menu {
+    display: flex; /*para ficar um do lado do outro*/     
+    align-items: center;
+    gap: 45px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.nav .menu a {
+    color: black;
+    transition: all 0.5s ease-in-out; /*para quando chegar o hover, a transição ter esse tempo (ease-in-out) é a entrada, quando passar o mouse entrar a transição*/
+    padding-bottom: 4px; /*para quando chegar o hover a linha(birder-buttom) ficar um pouco mais afastado do nome*/
+}
+
+.nav .menu a:hover {
+    color: #888;
+    border-bottom: #888 1px solid; /*se colocar 5px solid por exemplo, vai ficar com um traço mto grosso*/
+
+}
+
+.nav .menu .airpods {
+    color: #888;
+    border-bottom: #888 1px solid;
+
+}
+
+main {
+    display: flex; /*ficar um do lado do outro (a section 1 e 2 vão ficar uma do lado da outra*/
+    align-items: center;
+    justify-content:center;
+    padding: 2rem 10rem;    
+    gap: 80px;
+    
+}
+
+.section1 img {
+    width: 400px;
+
+}
+
+main .section1 h1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 3.5rem;
+    font-size: 40px;
+    margin-bottom:1rem;
+    margin-top: 1rem;
+}
+
+main .texto {
+    font-family: 'Mulish', sans-serif;
+}
+
+
+main .section1 .valor {
+    color: #888;
+    
+}
+
+main .section1 button{
+    padding: 10px 25px;    
+    background-color: #147CE5;
+    border-radius: 20px;
+    border: none;    
+    font-size: 1.5rem;
+    transition: all 0.5s;
+    margin-top: 1rem;
+    
+}
+
+main .section1 button a {
+    color: white;
+}
+
+main .section1 button:hover {
+    opacity: 85;
+}
+
+main .section1 .escolha {    
+    font-family: 'Mulish', sans-serif;
+    font-size: 1rem;
+    color: #444;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+main .section1 .cores {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+main .section1 .cores span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px  #afaeae;
+    transition: all 0.5s;
+    
+}
+
+
+
+main .section1 .cores span {
+    opacity: 80;
+}
+
+#prata {
+    background: #D2D3D4;
+
+}
+
+#cinza {
+    background: #3C3D3A;
+}
+
+#azul {
+   background: #2F506C;
+}
+
+#rosa {
+    background: #E4544D;
+}
+
+#verde {
+    background: #AFBFAB;
+}
+
+
+main .airpod img {
+    width: 650px;  
+}

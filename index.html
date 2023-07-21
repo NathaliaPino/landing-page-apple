@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple AirPods Max</title>
+    <link rel="shortcut icon" href="img/apple-logo_icon-icons.com_73680.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+      <nav class="nav">
+        <a  href="#"><img class="logo" src="img/Design sem nome (1).png" alt="logo Apple" /></a>        
+        <div class="menu">
+            <a href="#">Mac</a>
+            <a href="#">iPad</a>
+            <a href="#">iPhone</a>
+            <a href="#">Watch</a>
+            <a class="airpods" href="#">AirPods</a>
+            <a href="#">Só na Apple</a>
+            <a href="#">Suporte</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>        
+      <section class="section1">
+        
+        <img src="img/Design sem nome (1).png" alt="">
+
+        <h1>Você nunca ouviu nada assim</h1>
+
+        <p class="texto">Apresentamos os AirPods Max. A combinação perfeita entre som de altíssima fidelidade e a magia intuitiva dos AirPods.</p> 
+
+        <button> <a href="#">Comprar</a></button>
+        
+        <p class="escolha">Escolha sua cor favorita:</p>
+
+        <div class="cores">
+            <span id="prata" onclick="slide('img/cinza.jpg')"></span>
+            <span id="cinza" onclick="slide('img/preto.jpg')"></span>
+            <span id="azul" onclick="slide('img/azul.jpg')"></span>
+            <span id="rosa" onclick="slide('img/rosa.jpg')"></span>
+            <span id="verde" onclick="slide('img/verde.jpg')"></span>
+        </div>
+      </section>
+
+      <section class="airpod">
+        <img src="img/cinza.jpg" alt="imagem" id="airpod" >
+      </section>
+    </main>
+
+    <script>
+
+        function slide(e) {
+            document.querySelector('#airpod').src = e
+        }
+
+    </script>    
+    
+  </body>
+</html>
