@@ -14,26 +14,30 @@ header {
 
 .nav {
     display: flex; /*para ficar um do lado do outro*/
+    flex-direction: row;
     justify-content: space-between; /*para ficar um na extremidade do outro*/
-    align-items: center; /*para a logo e o menu ficarem centralizados entre sí*/
+    align-items: center; /*para a logo e o menu ficarem centralizados entre sí*/ 
+       
 }
 
 .nav .logo {
-    width: 100px;
+    width: 100px;  
 }
 
-.nav .menu {
-    display: flex; /*para ficar um do lado do outro*/     
+.nav .menu  {
+    display: flex; /*para ficar um do lado do outro*/       
     align-items: center;
-    gap: 45px;
-    font-family: 'Mulish', sans-serif;
+    gap: 45px;    
 }
 
-.nav .menu a {
+.nav .menu a{
+    font-family: 'Mulish', sans-serif;
     color: black;
     transition: all 0.5s ease-in-out; /*para quando chegar o hover, a transição ter esse tempo (ease-in-out) é a entrada, quando passar o mouse entrar a transição*/
     padding-bottom: 4px; /*para quando chegar o hover a linha(birder-buttom) ficar um pouco mais afastado do nome*/
+    
 }
+
 
 .nav .menu a:hover {
     color: #888;
