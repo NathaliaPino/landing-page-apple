@@ -123,14 +123,10 @@ main .section1 .cores span {
     cursor: pointer;
     box-shadow: 1px 1px 10px  #afaeae;
     transition: all 0.5s;
-    
-}
-
-
-
-main .section1 .cores span {
     opacity: 80;
 }
+
+
 
 #prata {
     background: #D2D3D4;
